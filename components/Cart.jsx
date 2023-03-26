@@ -72,7 +72,7 @@ const handleCheckout = async () => {
                     <span 
                       className="minus" onClick={() => toggleCartItemQuantity(item._id, 'dec')}><AiOutlineMinus />
                     </span>
-                    <span className="num" onClick="">{item.quantity}</span>
+                    <span className="num">{item.quantity}</span>
                     <span 
                       className="plus" onClick={() => toggleCartItemQuantity(item._id, 'inc')}><AiOutlinePlus />
                     </span>
